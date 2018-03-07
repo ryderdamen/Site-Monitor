@@ -1,5 +1,5 @@
 # Site Monitor
-Site monitor is a simple solution that takes screenshots of an array of sites you provide. You can schedule screenshots via a cron-job, and check up on it at any time.
+Site monitor is a simple solution that takes screenshots of an array of sites you provide. You can schedule screenshots via a cron-job, and check up on it at any time.[View more info here.](https://ryderdamen.com/projects/site-monitor)
 
 ## Setup
 
