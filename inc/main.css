@@ -1,0 +1,98 @@
+/* main.css - Author: Ryder Damen - ryderdamen.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+html, body {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 60px;
+	background-color: #f8f8f8;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+}
+
+ul, li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+	text-align: center;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+}
+
+.site-container {
+	width: 80%;
+	max-width: 650px;
+	margin: auto;
+	height: 240px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-shadow: 2px 2px  5px #d3d3d3;
+}
+
+.site-screen {
+	background-size: cover;
+	background-position: center center;
+	float: right;
+	width: 60%;
+	height: 240px;
+}
+
+.site-info {
+	float: left;
+	width: 40%;
+	height: 240px;
+	background-color: #f8f8f8;
+}
+
+.site-info .title {
+	height: 80px;
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+
+.title-inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.site-info .status {
+	height: 80px;
+	width: 100%;
+}
+
+.site-info .more {
+	height: 80px;
+	width: 100%;
+}
+
+.status-ok {
+	background: #11998e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.status-error {
+	background: #cb2d3e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

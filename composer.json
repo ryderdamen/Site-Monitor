@@ -1,0 +1,24 @@
+{
+    "name": "ryder/monitor",
+    "description": "A monitor for my sites",
+    "authors": [
+        {
+            "name": "Ryder Damen",
+            "email": "dev@ryderdamen.com"
+        }
+    ],
+    "require": {
+	    "jonnyw/php-phantomjs": "4.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-update-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ]
+    },
+    "config": {
+        "bin-dir": "/usr/local/bin"
+    }
+}
