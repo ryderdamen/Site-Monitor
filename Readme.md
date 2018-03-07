@@ -5,7 +5,7 @@ Site monitor is a simple solution that takes screenshots of an array of sites yo
 
 First, clone this repository to your server (this is cloning into a folder called monitor)
 ```bash
-git clone https://github.com/ryderdamen/site-monitor monitor
+git clone https://github.com/ryderdamen/Site-Monitor.git monitor
 ```
 
 Next, enter the folder and install dependencies with composer
@@ -29,3 +29,9 @@ php /path/to/your/installation/monitor/app/cron.php
 ```
 
 If you've installed your project in a public directory, it should now be visible on the web.
+
+
+## Dependencies
+* [PHP PhantomJS](http://jonnnnyw.github.io/php-phantomjs/)
+* [Lightbox](http://lokeshdhakar.com/projects/lightbox2/)
+* Lightbox
