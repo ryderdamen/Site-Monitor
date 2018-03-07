@@ -49,13 +49,13 @@ a {
 	background-size: cover;
 	background-position: center center;
 	float: right;
-	width: 60%;
+	width: 50%;
 	height: 240px;
 }
 
 .site-info {
 	float: left;
-	width: 40%;
+	width: 50%;
 	height: 240px;
 	background-color: #f8f8f8;
 }
